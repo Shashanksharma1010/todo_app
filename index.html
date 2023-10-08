@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To do list</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="index.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="edit-window close" >
+                <i id="window-close">&#x2718;</i>   
+                <h2 id="previous-task">My Task</h2>
+                <input id='new-task' type="text" autofocus placeholder="Enter new task...">
+                <button id="window-confirm">Confirm</button>
+            </div>
+
+            <div class="box">
+                <input type="text" id="item" autofocus placeholder="Write something here...">
+                <ul id="to-do-box">
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
